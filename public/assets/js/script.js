@@ -9,14 +9,15 @@ $(function() {
 
   $('.create-form').on('submit', (event) => {
     event.preventDefault();
-    let newBurger = {
-      name: $('#bg').val().trim(),
-    };
-
-    $.ajax("/api/burgers", {
-      type: "POST",
-      data: newBurger
-    }).then((data) => location.reload());
+    if ($('#bg').val().trim() !== '') {
+      let newBurger = {
+        name: $('#bg').val().trim(),
+      };
+      $.ajax("/api/burgers", {
+        type: "POST",
+        data: newBurger
+      }).then((data) => location.reload());
+    }
   });
 
 });
