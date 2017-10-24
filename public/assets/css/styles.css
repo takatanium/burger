@@ -1,0 +1,67 @@
+html {
+	color: black;
+}
+
+body {
+	background-color: #C20D00;
+}
+
+.container {
+	min-width: 767px;
+}
+
+.jumbotron {
+	background-color: #FFCE00;
+	padding: 15px 15px 15px 15px !important;
+}
+
+.jumbo-div {
+	width: 700px;
+	margin: auto;
+}
+
+.panel-max {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+h1 {
+	font-family: 'Ceviche One', cursive;
+	font-size: 110px !important;
+	line-height: 100px;
+	height: 100px;
+	margin: 0 0 10px 0;
+	color: #8B4513 !important;
+}
+
+.burger-div {
+	display: inline-block;
+  width: auto;
+  margin: 0 5px 10px 5px;
+  cursor: pointer;
+}
+
+.top-bun {
+  border-radius: 100px 100px 5px 5px;
+  background-color: tan;
+  height: 60px;
+  text-align: center;
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+.bottom-bun {
+	border-radius: 5px 5px 20px 20px;
+  background-color: tan;
+  height: 40px;
+}
+
+.burger-text {
+	color: #8B4513;
+	text-align: justify;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 0;
+}

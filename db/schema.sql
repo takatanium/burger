@@ -7,8 +7,3 @@ CREATE TABLE `burgers` (
 	`burger_name` VARCHAR( 255) NOT NULL,
 	`devoured` BOOLEAN NOT NULL DEFAULT false,
 	PRIMARY KEY ( `id` ) );
-
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("Bacon Double", false),
-("Mushroom Swiss", false),
-("BBQ Onion", true);

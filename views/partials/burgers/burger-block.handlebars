@@ -1,5 +1,6 @@
-<li>
-	{{id}}: {{burger_name}}
-	<button class="devour" data-id="{{id}}" data-devoured="{{devoured}}">Devour!
-	</button>
-</li>
+<div class="burger-div devour" data-toggle="tooltip" title="Click to Devour!"
+     data-id="{{id}}" data-devoured="{{devoured}}">
+  <div class="top-bun">{{id}}</div>
+  <p class="burger-text">{{burger_name}}</p>
+  <div class="bottom-bun"></div>
+</div>
