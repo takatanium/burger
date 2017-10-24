@@ -2,7 +2,7 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let override = require('method-override');
 
-let port = 3000;
+let port = process.env.PORT || 3000;
 let app = express();
 
 app.use(express.static("public"));
