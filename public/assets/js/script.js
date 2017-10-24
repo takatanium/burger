@@ -22,7 +22,9 @@ $(function() {
 
 });
 
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
+$(document).ready(() => {
+  let $readyBurgers = $('[data-devoured="false"]');
+  $readyBurgers.attr('title', 'Click to Devour!').tooltip(); 
+  $readyBurgers.css('cursor', 'pointer');
 });
   
