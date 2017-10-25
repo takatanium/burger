@@ -4,10 +4,10 @@ let burger = {
   selectAll: (cb) => {
     orm.selectAll("burgers", (res) => cb(res));
   },
-  insertOne: function(name, cb) {
+  insertOne: (name, cb) => {
     orm.insertOne("burgers", name, (res) => cb(res));
   },
-  updateOne: function(id, cb) {
+  updateOne: (id, cb) => {
     orm.updateOne("burgers", id, (res) => cb(res));
   }
 };
