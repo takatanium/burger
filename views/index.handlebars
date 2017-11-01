@@ -24,7 +24,7 @@
             <span class="glyphicon glyphicon-ice-lolly"></span> READY!
           </h2>
         </div>
-        <div class="panel-body panel-max">
+        <div class="panel-body panel-max" id="ready-div">
 
         {{#each burgers}}
           {{#unless devoured}}
@@ -43,7 +43,7 @@
             <span class="glyphicon glyphicon-ice-lolly-tasted"></span> DEVOURED!
           </h2>
         </div>
-        <div class="panel-body panel-max">
+        <div class="panel-body panel-max" id="devoured-div">
 
         {{#each burgers}}
           {{#if devoured}}
